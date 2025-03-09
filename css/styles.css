@@ -1,0 +1,117 @@
+body {
+	background-color: white;
+	padding: 0px;
+	margin: 0px;
+}
+
+.navigation ul {
+	list-style-type: none;
+	background-color: #05386B;
+	padding: 0px;
+	margin-left: 0px;
+	margin-top: 0px;
+	overflow: hidden;
+	text-align: center;
+    list-style-position: inside;
+    font-family: verdana;
+}
+
+.navigation a {
+	color: #EDF5E1;
+	padding: 15px;
+	margin: 0px;
+	display: block;
+	text-align: center;
+	text-decoration: none;
+}
+
+.navigation a:hover {
+	color: black;
+}
+
+.navigation li {
+	float: left;
+}
+
+.title {
+	font-family: 'Abril Fatface'; 
+	margin-left: 120px;
+	font-size: 70px;
+	background-color: #05386B;
+	color: #EDF5E1;
+
+}
+
+.box {
+     display: grid;
+     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+     gap: 20px;
+     padding: 20px;
+}
+
+.item {
+	margin-left: 0px;
+	margin-right: 0px;
+    text-align: center;
+    font-family: verdana;
+    width: 100%;
+    float: left;
+    color: #EDF5E1;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+@media (max-width: 1000px) {
+.box {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+}
+}
+			
+.line-height{
+	line-height: 1.8;
+	margin-top: 3px;
+	margin-left: 50px;
+	font-family: arial;
+}
+			
+.statement{
+	margin-right: 10px;
+	margin-left: 120px;
+	margin-top: -40px;
+	margin-bottom: 0px;
+	color: black;
+	text-align: justify;
+	font-family: verdana;
+	font-size: 25px;
+	height: 460px;
+	float: left;
+}
+
+.contact{
+  display: inline-block;
+  width: 30%;
+  text-align: center;
+  margin-left: 30px;
+  font-family: verdana;
+}
+
+.icons {
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	margin-bottom: -5px;
+}
+
+
+.profilepicture {
+	width: 90%;
+	height: 120%;
+	margin-right: 30px;
+	margin-top: 70px;
+	float: right;
+	border-radius: 110px;
+}
+
